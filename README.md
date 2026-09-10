@@ -2,11 +2,14 @@
 
 Hi, my name is Jared Yankee!
 
+## About Me
 I am a Software Developer specializing in system integrations. I work with
 enterprise business platforms like HubSpot, NetSuite, Stripe and BigCommerce,
 creating the pipelines that keep them all in sync: qualifying leads from form
 submissions, live syncing all e-commerce orders, and reconciling records with
 source of truth data.
+
+## Seyona.ai
 
 Currently working on Seyona.ai, an AI-powered FAQ generator that renders content
 directly to all live pages across a website. It scrapes the content from a
@@ -21,6 +24,8 @@ webpage and runs it through a three-model AI workflow, creating:
 3. **Generated FAQs** SEO/AEO-optimized question and answer couplets built from
    the high-confidence trends, the page content, and the sitewide brand profile,
    ready to be delivered to live webpages.
+
+## What I've done
 
 I am not a vibecoder; I miss writing code by hand, but love that my design choices
 can be brought to life much quicker. Some engineering highlights:
