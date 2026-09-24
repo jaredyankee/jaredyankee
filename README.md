@@ -1,42 +1,23 @@
-## Welcome!
+# Jared Yankee | Full-Stack & Integrations Engineer
 
-Hi, my name is Jared Yankee!
+Specializing in custom enterprise API integrations, webhook automation, and scalable backend workflows. 
 
-## About Me
-I am a Software Developer specializing in system integrations. I work with
-enterprise business platforms like HubSpot, NetSuite, Stripe and BigCommerce,
-creating the pipelines that keep them all in sync: qualifying leads from form
-submissions, live syncing all e-commerce orders, and reconciling records with
-source of truth data.
+[LinkedIn](https://linkedin.com/in/jaredyankee) | [Email](mailto:hello@jaredyankee.com) | [Website](https://jaredyankee.com)
 
-## Seyona.ai
+## 🚀 About Me
+I am a Software Developer specializing in complex system integrations. I bridge the gaps between enterprise platforms like **HubSpot, NetSuite, Stripe, and BigCommerce**, engineering the robust data pipelines that keep businesses synchronized. My expertise lies in designing loop-preventing syncs, building automated lead qualification engines, and reconciling distributed records against a central source of truth.
 
-Currently working on Seyona.ai, an AI-powered FAQ generator that renders content
-directly to all live pages across a website. It scrapes the content from a
-webpage and runs it through a three-model AI workflow, creating:
+I thrive in autonomous environments where I can own technical architecture end-to-end, translating complex business logic into clean, production-ready systems.
 
-1. **Brand Profile** a master document for the whole site: brand voice, the
-   business's offerings, and reference links to key pages that FAQs elsewhere on
-   the site can point to.
-2. **Trend Analysis** the highest-opportunity search trends addressed by each
-   page's content, with rationale for each choice, URL citations, and a
-   confidence score per term.
-3. **Generated FAQs** SEO/AEO-optimized question and answer couplets built from
-   the high-confidence trends, the page content, and the sitewide brand profile,
-   ready to be delivered to live webpages.
+## 🛠️ Deep-Dive Project: Seyona.ai
+I am currently building **Seyona.ai**, an SEO/AEO platform that automates FAQ generation and manages dynamic client-side injections. To handle heavy scraping and generation workloads asynchronously, I built a pipeline that ingests data, queues it via a database-driven request architecture, and processes it across a three-model AI workflow:
 
-## What I've done
+1. **Brand Profile Engine:** Generates a sitewide master context detailing core business offerings, brand voice, and structured reference mappings.
+2. **Trend Analysis Pipeline:** Analyzes page content against search trends, outputting high-opportunity targets with clear rationale, URL citations, and algorithmic confidence scoring.
+3. **Optimized FAQ Generation:** Ingests the trend data, page content, and brand profile to synthesize SEO/AEO-optimized question-and-answer schemas ready for server-side rendering or widget injection.
 
-I am not a vibecoder; I miss writing code by hand, but love that my design choices
-can be brought to life much quicker. Some engineering highlights:
-
-- Created dynamic form-generation workflow in Remedy to track progress of conditions
-- Refactored Seyona's request pipeline to store requests in the database and
-  process them through scheduled functions.
-- Built a two-way HubSpot–NetSuite order sync with loop prevention so syncs don't
-  start endless webhook loops.
-- Wrote a lead qualifier that assesses form type and country of origin on HubSpot
-  form submissions, rejecting them before they enter NetSuite.
-- Ran headless Chromium inside a Netlify function for server-side PDF invoice
-  generation for BigCommerce subscription orders, which aren't created
-  automatically.
+## 💻 Engineering Highlights
+* **Two-Way HubSpot–NetSuite Order Sync:** Designed a bi-directional data pipeline featuring custom loop-prevention logic to permanently eliminate cascading webhook cycles.
+* **Asynchronous Request Pipeline:** Re-architected Seyona's main ingest pipeline to store incoming payloads securely in Postgres and process them asynchronously via scheduled serverless functions.
+* **Serverless PDF Generation Engine:** Configured and deployed headless Chromium within a strict Netlify function environment to dynamically generate server-side PDF invoices for complex BigCommerce subscription cycles.
+* **Automated Lead Qualifier:** Developed a pre-ingest validation layer for HubSpot form submissions that evaluates form data and geographical origin, dropping unqualified leads before they taint core CRM records.
