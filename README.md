@@ -19,8 +19,6 @@ I thrive in autonomous environments where I can own technical architecture end-t
 3. **Optimized FAQ Generation:** Ingests the trend data, page content, and brand profile to synthesize SEO/AEO-optimized question-and-answer schemas ready for server-side rendering or widget injection.
 
 ## Stuff I've Made
-
-## Engineering Highlights
 * **Two-Way HubSpot–NetSuite Order Sync:** Designed a data pipeline featuring custom loop-prevention logic to stop webhooks from triggering each other infinitely.
 * **Asynchronous Request Pipeline:** Re-architected Seyona's main ingest pipeline to store incoming payloads securely in Postgres and process them asynchronously via scheduled serverless functions.
 * **Serverless PDF Generation Engine:** Configured and deployed headless Chromium within a Netlify function environment to generate and notify about PDF invoices when BigCommerce wouldn't recognize subscription orders.
