@@ -10,7 +10,9 @@ I am a Software Developer specializing in complex system integrations. I bridge 
 I thrive in autonomous environments where I can own technical architecture end-to-end, translating complex business logic into clean, production-ready systems.
 
 ## Seyona.ai
-I am currently building **Seyona.ai**, an SEO/AEO platform that automates FAQ generation and manages dynamic client-side injections. To handle heavy scraping and generation workloads asynchronously, I built a pipeline that ingests data, queues it via a database-driven request architecture, and processes it across a three-model AI workflow:
+<img width="800" height="450" alt="seyona-demo" src="https://github.com/user-attachments/assets/d572dcdf-18d9-44e1-9617-4f7b51792851" />
+
+**Seyona.ai** is an SEO/AEO platform that automates FAQ generation and manages dynamic client-side injections. To handle heavy scraping and generation workloads asynchronously, I built a pipeline that ingests data, queues it via a database-driven request architecture, and processes it across a three-model AI workflow:
 
 1. **Brand Profile Engine:** Generates a sitewide master context detailing core business offerings, brand voice, and structured reference mappings.
 2. **Trend Analysis Pipeline:** Analyzes page content against search trends, outputting high-opportunity targets with clear rationale, URL citations, and algorithmic confidence scoring.
